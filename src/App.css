@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  height: 10vh;
+  box-shadow: 0px 1px 7px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 7px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 7px -2px rgba(0, 0, 0, 0.75);
+}
+
+.navbar img {
+  margin-left: 8rem;
+}
+
+.hero-img {
+  text-align: center;
+  margin: 4rem;
+}
+
+.hero-text h1 {
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  width: 40vw;
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+}
+
+.card .main-img {
+  border-radius: 10px;
+  display: inline-flex;
+}
+
+.card {
+  margin: 2rem;
+}
+
+.card-component {
+  display: flex;
+  justify-content: center;
+}
+
+.ratings {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.cost {
+  font-weight: 600;
+}
+
+.person {
+  font-weight: 300;
+}
+
+.status {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 5px;
+}
+
+.star-icon {
+  margin-right: 0.5rem;
+}
